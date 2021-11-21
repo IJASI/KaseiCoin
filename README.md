@@ -9,13 +9,17 @@ The code can be executed via the [Remix IDE website ](https://remix.ethereum.org
 
 Compile the completed code/file using the "0.5.5+commit.1d4f565a" compiler. 
 
+Deploying the contracts in correct sequience in order to "link" them together. Firts deploy the crowdsale contract then the coin contract. See below addresses for the deployed contracts.
+
 ![FrontEnd](/images/Deployement_AtAddress.JPG)
+
+Once yo the coing contract is deployed you will have access to capabilities such as addMinter, mint, decrease/increase allowance, and check balance. See screenshot showing a balance of 20 tokens. 
 
 ![FrontEnd](/images/Deployement_balanceOf_address.JPG)
 
-![FrontEnd](/images/Deployement_balanceOf_totalSupplyJPG.JPG)
 
-![FrontEnd](/images/Deployement_buyTokens_Transact.JPG)
+
+![FrontEnd](/images/Deployement_balanceOf_totalSupplyJPG.JPG)
 
 ![FrontEnd](/images/Deployement_call_balanceOf.JPG)
 
