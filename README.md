@@ -9,19 +9,23 @@ The code can be executed via the [Remix IDE website ](https://remix.ethereum.org
 
 Compile the completed code/file using the "0.5.5+commit.1d4f565a" compiler. 
 
-Deploying the contracts in correct sequience in order to "link" them together. Firts deploy the crowdsale contract then the coin contract. See below addresses for the deployed contracts.
+The contracts must be deployed in the correct sequience in order to "link" them together. Firts deploy the crowdsale contract the coin contract after. See below addresses for the deployed contracts.
 
 ![FrontEnd](/images/Deployement_AtAddress.JPG)
 
-Once yo the coing contract is deployed you will have access to capabilities such as addMinter, mint, decrease/increase allowance, and check balance. See screenshot showing a balance of 20 tokens. 
+Once the coin contract is deployed you will have access to capabilities such as addMinter, mint, decrease/increase allowance, and check balance. See screenshot showing a balance of 20 tokens. 
 
 ![FrontEnd](/images/Deployement_balanceOf_address.JPG)
 
-
+See below how total current supply is also showing 20. 
 
 ![FrontEnd](/images/Deployement_balanceOf_totalSupplyJPG.JPG)
 
+Once the code is updated for enhanced functionality you will be able to set a cap on the coing and/or set a goal to be reached in the crowdsale. Please see below screenshot sowing the goal set of 300 ether. 
+
 ![FrontEnd](/images/Deployement_call_balanceOf.JPG)
+
+The below screeshot shows the the balance of 300, the cap set of 300, and cap reached updated to True. 
 
 ![FrontEnd](/images/Deployement_crowdsale_goal.JPG)
 
