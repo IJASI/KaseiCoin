@@ -15,7 +15,7 @@ The contracts must be deployed in the correct sequience in order to "link" them 
 
 ![FrontEnd](/images/Deployement_AtAddress.JPG)
 
-Once the coin contract is deployed you will have access to capabilities such as addMinter, mint, decrease/increase allowance, and check balance. See screenshot showing a balance of 20 tokens. 
+Once the coin contract is deployed you will have access to capabilities such as add+Minter, mint, decrease/increase allowance, and check balance. See screenshot showing a balance of 20 tokens. 
 
 ![FrontEnd](/images/Deployement_balanceOf_address.JPG)
 
@@ -34,26 +34,6 @@ Once the code is updated for enhanced functionality you will be able to set a ca
 The below screeshot shows the the balance of 300, the cap set of 300, and cap reached updated to True. 
 
 ![FrontEnd](/images/Deployement_crowdsale_goal.JPG)
-
-
-![FrontEnd](/images/Deployment_crowds_token_buyToken.JPG)
-
-![FrontEnd](/images/Deployment_injectedWeb3_Contract_KaseiCoin_AtAddress.JPG)
-
-
-
-## Demo
-
-If you still have any doubts please watch the following video demo.
-
-
-
-
-https://user-images.githubusercontent.com/85713622/141889382-f5bbbbec-6efc-4a37-8d69-8aabb0fd3d27.mp4
-
-
-
-
 
 ## Contributors(ing)
 This a project designed by:
